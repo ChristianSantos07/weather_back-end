@@ -8,10 +8,10 @@ Projeto para consultar uma API e retornar os dados meterologicos da cidade solic
 - **Frontend**: Flutter - Código fonte do front-end [visualizar projeto](https://github.com/ChristianSantos07/weather_front-end/tree/main/lib/home)
 - **Banco de Dados**: PostgreSQL
 
-No arquivo fron-end.rar está compilado a interface gráfica para windows, basta executar o .exe
+No arquivo front-end.rar está compilado a interface gráfica para windows, basta executar o .exe
 
 ## Pré-requisitos
-Ferramentas necessário ( flutter não é necessário caso queria so rodar o frontend)
+Ferramentas necessário ( flutter não é necessário caso queria so rodar o App)
 
 - VS Code [Link para download](https://code.visualstudio.com/)
 - Python [Link para download](https://www.python.org/downloads/)
@@ -80,6 +80,4 @@ Para executar e testar este projeto, siga as instruções abaixo:
    ```bash
    cd weather_back-end
    flask run
-
-
 
