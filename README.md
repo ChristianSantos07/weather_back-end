@@ -33,6 +33,8 @@ Bicliotecas utilizadas durante o desenvolvimento foram as seguintes:
 - **requests**:
   - Instalação: `python -m pip install requests`
   - Descrição: A biblioteca `requests` foi utilizada para fazer requisições HTTP.
+ 
+Para testes foi utilizado o Insomnia, aplicativo para teste de requisições HTTP.
 
 ## Banco de Dados PostgreSQL
 
