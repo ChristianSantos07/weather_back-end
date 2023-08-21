@@ -22,10 +22,6 @@ Ferramentas necessário ( flutter não é necessário caso queria so rodar o App
 
 Bicliotecas utilizadas durante o desenvolvimento foram as seguintes:
 
-- **paramet**:
-  - Instalação: `python -m pip install paramet`
-  - Descrição: O módulo `paramet` foi usado para simplificar a validação parâmetros e funções 
-
 - **SQLAlchemy e psycopg2-binary**:
   - Instalação: `python -m pip install sqlalchemy psycopg2-binary`
   - Descrição: O SQLAlchemy  (ORM) foi usada para interagir com bancos de dados de forma mais intuitiva e orientada a objetos. O `psycopg2-binary` é um adaptador PostgreSQL para Python, 
@@ -41,6 +37,11 @@ Bicliotecas utilizadas durante o desenvolvimento foram as seguintes:
 ## Banco de Dados PostgreSQL
 
 Este projeto utiliza o PostgreSQL como banco de dados para armazenar os dados de previsão do tempo. Abaixo está a estrutura da tabela `historico_previsao_tempo`:
+
+```sql
+  CREATE DATABASE weather_linx;
+```
+
 
 ```sql
 CREATE TABLE historico_previsao_tempo (
@@ -79,5 +80,5 @@ Para executar e testar este projeto, siga as instruções abaixo:
 
    ```bash
    cd weather_back-end
-   flask run
+   python main.py
 
