@@ -49,7 +49,7 @@ def get_weather_data(city_name, current_day=True):
     Esta função requer uma API_KEY válida da OpenWeatherMap para acessar a API
     Obtido em https://openweathermap.org/
     Documentação:
-        weater = https://openweathermap.org/current
+        weather = https://openweathermap.org/current
         forecast = https://openweathermap.org/forecast5
     """
 
