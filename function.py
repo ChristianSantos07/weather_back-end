@@ -71,10 +71,10 @@ def format_datetime(data):
       format_datetime(data) retorna "sábado, 20 de agosto de 2023"
 
     """
-    # Crie o formato desejado
+    # formato da dara
     format_desired = "%A, %d de %B de %Y"
     
-    # Formate a data usando o formato desejado
+    # convertendo a data na data formatada
     formatted_date = data.strftime(format_desired)
 
     return formatted_date
