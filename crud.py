@@ -54,11 +54,11 @@ class tableHistoric(Base):
     identidade = Column(Integer, primary_key=True)
     cidade = Column(String(50))
     data = Column(Date)
-    data_current = Column(DateTime)# Correção aqui
+    data_current = Column(DateTime)
     previsao = Column(String(50))
     pais = Column(String(10))
     vento = Column(String(10))
-    icon = Column(Text)  # Correção aqui
+    icon = Column(Text) 
     umidade = Column(String(10))
     temp = Column(String(10))
     temp_max = Column(String(10))
